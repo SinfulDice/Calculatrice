@@ -1,6 +1,10 @@
-from . import operator as op
-from . import user_choice as uc
+import operator as op
+import user_choice as uc
 
-uc()
+# uc.choose_number()
 
-print(op.add(2,4))
+number = op.OperatorList()
+
+print(number.add(x=9, y=5))
+
+uc.choose_operator()
